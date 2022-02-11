@@ -23,7 +23,6 @@ public class Task6 {
                 names.computeIfAbsent(user.getId(), key -> user.getName());
             }
         }
-        
         return names;
     }
 
