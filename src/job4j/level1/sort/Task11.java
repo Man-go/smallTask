@@ -9,7 +9,6 @@ import java.util.TreeSet;
  */
 public class Task11 {
     public static Set<String> sort(List<String> list) {
-        Set<String> sortedSet = new TreeSet<>(list);
-        return sortedSet;
+        return new TreeSet<>(list);
     }
 }
