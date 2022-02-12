@@ -7,7 +7,8 @@ import java.util.function.Predicate;
  */
 public class Task1 {
     public static boolean check(int num) {
-        return num > 0;
+        Predicate<Integer> predicate = value -> value > 0;
+        return predicate.test(num);
     }
 
     private static boolean check(Predicate<Integer> predicate, int num) {
