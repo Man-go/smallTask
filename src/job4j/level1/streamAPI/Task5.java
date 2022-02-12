@@ -2,6 +2,7 @@ package job4j.level1.streamAPI;
 
 import java.util.Comparator;
 import java.util.List;
+import java.util.Optional;
 
 /**
  * Ваша задача найти строку с минимальной длиной. Размер списка больше 0
