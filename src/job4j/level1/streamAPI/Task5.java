@@ -11,6 +11,6 @@ public class Task5 {
     public static String min(List<String> list) {
         return list.stream()
                 .min(String::compareTo)
-                .get();
+                .orElse("");
     }
 }
